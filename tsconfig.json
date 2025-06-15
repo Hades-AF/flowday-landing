@@ -1,25 +1,25 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
+    "target": "ES2020",                           // Version of JS, TS Compiles (Modern)
+    "lib": ["dom", "dom.iterable", "esnext"],     // Typings for Browser APIs
+    "allowJs": true,                              // Allows JS files in TS project
+    "skipLibCheck": true,                         // Skips Type Checking .d.ts Files
+    "strict": true,                               // Strict Typing
+    "noEmit": true,                               // Only Use TS for Type Checking
+    "esModuleInterop": true,                      // Use CommonJS with Regular Import Syntax
+    "module": "esnext",                           // Import/Export Syntax for Modules
+    "moduleResolution": "bundler",                // Modern Bundle Practices
+    "resolveJsonModule": true,                    // Import .JSON Into TS Code
+    "isolatedModules": true,                      // Files Treated Independently
+    "jsx": "preserve",                            // Let JSX Handled By Next.js Instead of TS Compiler
+    "incremental": true,                          // Cache Previous Compiled Data
     "plugins": [
       {
-        "name": "next"
+        "name": "next"                            // TS Behavior for Next.js
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"]                          // Supports @/ Import
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

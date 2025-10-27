@@ -140,7 +140,7 @@ function Roadmap() {
     <section id="roadmap" className="py-16 sm:py-20">
       <Container>
         <SectionHeading
-          title="What we're building"
+          title="What we\'re building"
           subtitle="Track our progress from Early Access to a polished public release."
         />
 
@@ -194,7 +194,7 @@ function FAQ() {
       <Container>
         <SectionHeading
           title="Frequently asked questions"
-          subtitle="If you can't find your question/answer please reach out in the Discord community."
+          subtitle="If you can\'t find your question/answer please reach out in the Discord community."
         />
 
         <div className="mx-auto max-w-3xl divide-y divide-zinc-200 rounded-2xl border border-zinc-200 bg-white shadow-sm dark:divide-zinc-800 dark:border-zinc-800 dark:bg-zinc-900">
@@ -214,7 +214,7 @@ function FAQ() {
         </div>
 
         <div className="mt-6 text-center text-sm text-zinc-600 dark:text-zinc-400">
-          Can't find it? Join the <Link href="#community" className="underline underline-offset-4">Discord community</Link>.
+          Can&apos;t find it? Join the <Link href="#community" className="underline underline-offset-4">Discord community</Link>.
         </div>
       </Container>
     </section>
